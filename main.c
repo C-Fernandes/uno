@@ -95,7 +95,7 @@ int main() {
   // Lê uma linha até o '\n' com os identificadores dos jogadores.
   // Será necessário separar os identificadores para saber quem são, quantos bots estão
   // jogando e qual a ordem inicial de jogada deles.
-  scanf("PLAYERS %[^\n]\n", temp);
+  scanf("PLAYERS [ %[^\n]\n", temp);
 
   // Caso queira imprimir uma mensagem para debugar, pode chamar 'debug()' passando uma string.
   // Por exemplo: debug(temp);
